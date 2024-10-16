@@ -115,7 +115,7 @@ def PID_main(conn):
     ErrI = [x_errorI, y_errorI, z_errorI, yaw_errorI]
     path = [[0,0,0,0]]
     
-    #Drone1.trim(-8,20,0,0) # iit
+    #Drone1.trim(-8,20,0,0) 
     Drone1.trim(23, 5,0,0)
     Drone1.disarm()
     # Drone2.disarm
